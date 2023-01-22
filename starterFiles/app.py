@@ -4,7 +4,6 @@ from flask import Flask, session, render_template, request, g
 
 app = Flask(__name__)
 app.secret_key = "jfkodashfdashklj121"
-app.config["SESSION_COOKIE_NAME"] = "mycookiemonsternmaklfjd"
 
 
 @app.route("/", methods=["POST", "GET"])
